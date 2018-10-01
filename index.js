@@ -1,7 +1,6 @@
 var kittens =["Milo", "Otis", "Garfield"];
-var newCat = "Space Pizza DJ Cat"
 
-function destructivelyAppendKitten(newCat) {
-  kittens.shift(newCat);
+function destructivelyAppendKitten(name) {
+  kittens.shift(name);
   return kittens;
 }
